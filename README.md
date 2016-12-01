@@ -3,4 +3,9 @@ This repo is used to manage all base related tools, but excluding python, nodejs
 
 #dbus
 
-#libffi
+#glib
+    dependecy:
+    #libffi
+    #zlib
+    #perl ** (Do not need cross compile) 
+

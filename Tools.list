@@ -7,3 +7,6 @@ version: 1.8.0
 
 libffi:
 version: 3.0.13
+
+zlib:
+version: 1.2.8
