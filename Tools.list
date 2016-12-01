@@ -4,3 +4,6 @@ b) Each tool should has the right sequence based on the base cross compile tool
 
 dbus: 
 version: 1.8.0
+
+libffi:
+version: 3.0.13
