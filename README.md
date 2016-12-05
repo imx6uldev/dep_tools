@@ -2,9 +2,11 @@
 This repo is used to manage all base related tools, but excluding python, nodejs, redis etc...
 
 #dbus
+    dependency:
+    #expat
 
 #glib
-    dependecy:
+    dependency:
     #libffi
     #zlib
     #perl ** (Do not need cross compile) 

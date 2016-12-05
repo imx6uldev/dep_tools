@@ -2,6 +2,9 @@ This file is used to list all the tools in this repo and related version informa
 a) Each folder includes the source code and  build.sh file
 b) Each tool should has the right sequence based on the base cross compile tool
 
+expat:
+version: 
+
 dbus: 
 version: 1.8.0
 
