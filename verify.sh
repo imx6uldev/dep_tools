@@ -17,7 +17,7 @@ cd ..
 #Build dbus
 cd expat
 ./build.sh 2>err.log
-cd..
+cd ..
 
 cd dbus
 ./build.sh 2>err.log
