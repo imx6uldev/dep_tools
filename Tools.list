@@ -2,11 +2,6 @@ This file is used to list all the tools in this repo and related version informa
 a) Each folder includes the source code and  build.sh file
 b) Each tool should has the right sequence based on the base cross compile tool
 
-expat:
-version: 
-
-dbus: 
-version: 1.8.0
 
 libffi:
 version: 3.0.13
@@ -19,3 +14,15 @@ version: 5.24.0
 
 glib:
 version: 2.46.2
+
+expat:
+version: 2.2.0
+
+dbus: 
+version: 1.8.0
+
+util-linux
+version: 2.21.2
+
+
+

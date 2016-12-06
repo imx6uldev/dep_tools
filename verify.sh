@@ -23,3 +23,7 @@ cd dbus
 ./build.sh 2>err.log
 cd ..
 
+#Build udev
+cd ./util-linux
+./build.sh 2>err.log
+cd ..
