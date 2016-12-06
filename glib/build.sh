@@ -13,8 +13,6 @@ make
 make install DESTDIR=${PWD}/imx6ul
 
 #Build for crosscompile tool
-make clean
-#make distclean
 ./configure --prefix=${CROSS_COMPILE_ENVIRONMENT_HOME}/sysroots/cortexa7hf-vfp-neon-poky-linux-gnueabi/usr --host=arm-poky-linux-gnueabi
 make
 make install
