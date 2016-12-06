@@ -1,0 +1,4 @@
+0001-Fixing-keyboard_force_release.sh-shell-script-path.patch -p1
+avoid-mouse-autosuspend.patch -p1
+add-install-ptest.patch -p1
+fix_rule-syntax-regex-ptest.patch -p1
