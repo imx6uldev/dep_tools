@@ -7,7 +7,7 @@ cd ./dbus-1.8.0
 CROSS_COMPILE_ENVIRONMENT_HOME=/opt/fsl-imx-x11/3.14.52-1.1.0
 source ${CROSS_COMPILE_ENVIRONMENT_HOME}/environment-setup-cortexa7hf-vfp-neon-poky-linux-gnueabi
 
-#autoreconf --force --install
+unset PKG_CONFIG_SYSROOT_DIR
 
 #Build for imx6ul board
 ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var  --host=arm-poky-linux-gnueabi
