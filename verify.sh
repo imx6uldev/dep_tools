@@ -27,3 +27,7 @@ cd ..
 cd ./util-linux
 ./build.sh 2>err.log
 cd ..
+
+cd ./kmod
+./build.sh 2>err.log
+cd ..

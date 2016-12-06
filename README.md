@@ -4,7 +4,6 @@ This repo is used to manage all base related tools, but excluding python, nodejs
 2. Install perl
 3. Use the verify.sh file to verify all case
 
-
 #glib
     dependency:
     #libffi
@@ -19,4 +18,5 @@ This repo is used to manage all base related tools, but excluding python, nodejs
 #udev
     dependency:
     util-linux:libuuid/libblkid/libmount
+    kmod
 

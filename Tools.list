@@ -24,5 +24,8 @@ version: 1.8.0
 util-linux
 version: 2.21.2
 
+kmod:
+version: 23
+
 
 
