@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Cd libusb-0.1.12
+#Cd libusb-1.0.9
 cd ./libusb-1.0.9
 
 #Import cross compile tool

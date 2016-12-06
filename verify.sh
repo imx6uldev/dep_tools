@@ -39,3 +39,7 @@ cd ..
 cd ./udev
 ./build.sh 2>err.log
 cd ..
+
+cd ./upower
+./build.sh 2>err.log
+cd ..

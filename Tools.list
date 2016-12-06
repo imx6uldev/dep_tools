@@ -36,5 +36,8 @@ version:
 udev:
 version: 182
 
+upower
+version: 0.99.4
+
 
 

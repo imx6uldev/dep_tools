@@ -22,4 +22,9 @@ This repo is used to manage all base related tools, but excluding python, nodejs
     libusb
     udev
     
+#upower
+    dependency:
+    #dbus
+    #udev
+    
 
