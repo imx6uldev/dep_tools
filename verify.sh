@@ -31,3 +31,7 @@ cd ..
 cd ./kmod
 ./build.sh 2>err.log
 cd ..
+
+cd ./libusb
+./build.sh 2>err.log
+cd ..

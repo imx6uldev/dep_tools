@@ -19,4 +19,5 @@ This repo is used to manage all base related tools, but excluding python, nodejs
     dependency:
     util-linux:libuuid/libblkid/libmount
     kmod
+    libusb
 

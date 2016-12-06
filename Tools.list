@@ -27,5 +27,8 @@ version: 2.21.2
 kmod:
 version: 23
 
+libusb:
+version: 0.1.12
+
 
 
