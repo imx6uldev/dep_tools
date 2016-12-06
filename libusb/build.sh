@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Cd libusb-0.1.12
-cd ./libusb-0.1.12
+cd ./libusb-1.0.9
 
 #Import cross compile tool
 CROSS_COMPILE_ENVIRONMENT_HOME=/opt/fsl-imx-x11/3.14.52-1.1.0
@@ -23,8 +23,7 @@ cd ..
 mkdir -p release/usr/bin
 mkdir -p release/usr/lib
 
-cp ./libusb-0.1.12/imx6ul/usr/bin/* ./release/usr/bin
-cp ./libusb-0.1.12/imx6ul/usr/lib/*.so* ./release/usr/lib
+cp ./libusb-1.0.9/imx6ul/usr/lib/*.so* ./release/usr/lib
 
 
 

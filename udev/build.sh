@@ -24,8 +24,15 @@ make install
 cd ..
 
 #Release
+mkdir -p release/etc
 mkdir -p release/usr/bin
 mkdir -p release/usr/lib
+mkdir -P release/usr/libexec
+
+cp -R ./udev-182/imx6ul/etc/* ./release/etc
+cp -R ./udev-182/imx6ul/usr/bin/* ./release/usr/bin
+cp -R ./udev-182/imx6ul/usr/lib/*.so* ./release/usr/lib
+cp -R ./udev-182/imx6ul/usr/libexec/* ./release/usr/libexec
 
 
 

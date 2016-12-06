@@ -28,7 +28,7 @@ kmod:
 version: 23
 
 libusb:
-version: 0.1.12
+version: 1.0.9
 
 usbutil:
 version:
