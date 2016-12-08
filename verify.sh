@@ -43,3 +43,9 @@ cd ..
 cd ./upower
 ./build.sh 2>err.log
 cd ..
+
+
+#Build ncurses
+cd ./ucurses
+./build.sh 2>err.log
+cd ..

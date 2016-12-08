@@ -36,8 +36,10 @@ version:
 udev:
 version: 182
 
-upower
+upower:
 version: 0.99.4
 
+ncurses:
+version: 5.9
 
 
