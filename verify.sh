@@ -49,3 +49,8 @@ cd ..
 cd ./ucurses
 ./build.sh 2>err.log
 cd ..
+
+#Build libical
+cd ./libical
+./build.sh 2>err.log
+cd ..

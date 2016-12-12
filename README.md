@@ -29,3 +29,6 @@ This repo is used to manage all base related tools, but excluding python, nodejs
     
 #ncurse
 
+#libical
+    #cmake ** (Do not need cross compile)
+
