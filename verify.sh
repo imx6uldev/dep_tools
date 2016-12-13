@@ -40,10 +40,15 @@ cd ./udev
 ./build.sh 2>err.log
 cd ..
 
+#Build upower
 cd ./upower
 ./build.sh 2>err.log
 cd ..
 
+#Build libical
+cd ./libical
+./build.sh 2>err.log
+cd ..
 
 #Build readline
 cd ./ucurses
@@ -54,7 +59,7 @@ cd ./readline
 ./build.sh 2>err.log
 cd ..
 
-#Build libical
-cd ./libical
+#Build bluez
+cd ./bluez
 ./build.sh 2>err.log
 cd ..

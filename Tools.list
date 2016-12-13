@@ -39,15 +39,18 @@ version: 182
 upower:
 version: 0.99.4
 
-ncurses:
-version: 5.9
-
-libical:
-version: 1.0
-
 cmake:
 sudo apt-get install cmake
 version: 2.8.12.2
 
-ncurse:
+libical:
+version: 1.0
+
+ncurses:
+version: 5.9
+
+readline:
 version: 6.3
+
+bluez
+version: 5.40
