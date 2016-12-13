@@ -9,14 +9,16 @@ source ${CROSS_COMPILE_ENVIRONMENT_HOME}/environment-setup-cortexa7hf-vfp-neon-p
 #Build for imx6ul board
 unset PKG_CONFIG_SYSROOT_DIR
 ./configure --prefix=/usr --host=arm-poky-linux-gnueabi bash_cv_wcwidth_broken=yes
-make
+make SHLIB_LIBS=-lncurses
 make install DESTDIR=${PWD}/imx6ul
 
 #Build for crosscompile tool
 make clean
 ./configure --prefix=${CROSS_COMPILE_ENVIRONMENT_HOME}/sysroots/cortexa7hf-vfp-neon-poky-linux-gnueabi/usr --host=arm-poky-linux-gnueabi bash_cv_wcwidth_broken=yes
-make
+make SHLIB_LIBS=-lncurses
 make install
+
+chmod 755 -R ./imx6ul
 
 cd ..
 
