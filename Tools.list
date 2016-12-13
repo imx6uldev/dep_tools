@@ -49,3 +49,5 @@ cmake:
 sudo apt-get install cmake
 version: 2.8.12.2
 
+ncurse:
+version: 6.3

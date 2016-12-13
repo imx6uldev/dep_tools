@@ -45,8 +45,12 @@ cd ./upower
 cd ..
 
 
-#Build ncurses
+#Build readline
 cd ./ucurses
+./build.sh 2>err.log
+cd ..
+
+cd ./readline
 ./build.sh 2>err.log
 cd ..
 

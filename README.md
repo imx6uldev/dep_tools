@@ -27,7 +27,8 @@ This repo is used to manage all base related tools, but excluding python, nodejs
     #dbus
     #udev
     
-#ncurse
+#readline
+    #ncurse
 
 #libical
     #cmake ** (Do not need cross compile)
